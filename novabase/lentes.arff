@@ -1,0 +1,34 @@
+@relation tempo
+ 
+@attribute idade {novo,pre-presbiopia,presbiopia}
+@attribute prescricao {miope,hipermetrope}
+@attribute astigmatismo {sim,nao}
+@attribute lagrina {normal,reduzido}
+@attribute classe {nao,gelatinosa,rigido}
+ 
+@data
+
+novo,miope,sim,reduzido,nao
+novo,miope,sim,normal,gelatinosa
+novo,miope,nao,reduzido,nao
+novo,miope,nao,normal,rigido
+novo,hipermetrope,sim,reduzido,nao
+novo,hipermetrope,sim,normal,gelatinosa
+novo,hipermetrope,nao,reduzido,nao
+novo,hipermetrope,nao,normal,rigido
+pre-presbiopia,miope,sim,reduzido,nao
+pre-presbiopia,miope,sim,normal,gelatinosa
+pre-presbiopia,miope,nao,reduzido,nao
+pre-presbiopia,miope,nao,normal,rigido
+pre-presbiopia,hipermetrope,sim,reduzido,nao
+pre-presbiopia,hipermetrope,sim,normal,gelatinosa
+pre-presbiopia,hipermetrope,nao,reduzido,nao
+pre-presbiopia,hipermetrope,nao,normal,nao
+presbiopia,miope,sim,reduzido,nao
+presbiopia,miope,sim,normal,nao
+presbiopia,miope,nao,reduzido,nao
+presbiopia,miope,nao,normal,rigido
+presbiopia,hipermetrope,sim,reduzido,nao
+presbiopia,hipermetrope,sim,normal,gelatinosa
+presbiopia,hipermetrope,nao,reduzido,nao
+presbiopia,hipermetrope,nao,normal,nao
